@@ -88,7 +88,6 @@ a:hover {
 .p2 {
   font-family: "Gilroy";
   font-size: 18px;
-  line-height: 135.94%;
   text-align: center;
 }
 .h22 {
@@ -99,8 +98,13 @@ a:hover {
 .grid-conteiner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 40px;
-  padding: 40px;
+  padding: 70px;
+}
+.anniversary,
+.christmas,
+.valentine,
+.birthday {
+  padding: 20px;
 }
 .section3 {
   display: grid;
@@ -109,6 +113,7 @@ a:hover {
   background-color: #f7941e;
   align-items: center;
   justify-items: center;
+  width: 1440px;
 }
 .p1-orangeblock {
   font-weight: bolder;
@@ -144,4 +149,49 @@ a:hover {
   line-height: 22px;
   cursor: pointer;
   font-family: inherit;
+}
+.seemore {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.section4_block-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  background: #231f20;
+  color: #ffffff;
+  width: 1170px;
+  height: 370px;
+  margin: 100px;
+}
+.section4_block-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 1170px;
+  margin: 100px;
+}
+.block_black-p1 {
+  font-size: 14px;
+}
+.block_black-p2 {
+  font-size: 48px;
+  width: 492px;
+  height: 125px;
+}
+.block_white1-p1 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.block_white1-p2 {
+  font-size: 18px;
+}
+.section4__block_white1,
+.section4__block_white2 {
+  width: 570px;
+  height: 290px;
+  text-align: left;
 }
