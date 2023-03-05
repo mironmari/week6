@@ -1,0 +1,147 @@
+body {
+  font-family: "Gilroy";
+  color: #000000;
+}
+.conteiner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 116px;
+  justify-content: space-around;
+  background: #fafafa;
+  align-items: center;
+}
+li {
+  display: inline;
+  color: black;
+  padding: 15px;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.giftfinder {
+  color: #f7941e;
+  width: 150px;
+  height: 43.5px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.logo {
+  width: 41px;
+  height: 39px;
+}
+.h1 {
+  font-size: 56px;
+  line-height: 69px;
+}
+.p1 {
+  font-size: 20px;
+  line-height: 140.62%;
+}
+.h2 {
+  font-size: 32px;
+  line-height: 140.62%;
+}
+.findgiftnow {
+  color: white;
+  width: 200px;
+  height: 60px;
+  background: #f7941e;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.learnmore {
+  color: #f7941e;
+  width: 200px;
+  height: 60px;
+  background: #f1f1f2;
+  border-radius: 5px;
+  border: 1px solid #f7941e;
+  font-size: 18px;
+  line-height: 134.77%;
+  cursor: pointer;
+  font-family: inherit;
+}
+.div1 {
+  text-align: left;
+  padding: 100px;
+  margin: 30px;
+}
+.p2 {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+}
+.h22 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+}
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 40px;
+  padding: 40px;
+}
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #f7941e;
+  align-items: center;
+  justify-items: center;
+}
+.p1-orangeblock {
+  font-weight: bolder;
+  font-size: 32px;
+}
+.p2-orangeblock {
+  font-size: 32px;
+}
+.orangeblock__p {
+  display: block;
+  justify-self: center;
+}
+.findgiftnow1 {
+  color: white;
+  width: 200px;
+  height: 50px;
+  background: #231f20;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.howitworks {
+  color: black;
+  width: 200px;
+  height: 50px;
+  background: #f7941e;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  font-family: inherit;
+}
